@@ -1,7 +1,7 @@
 # One click docker updater
 Auto update your docker containers from fresh images.
 
-##### This script takes for granted that you use files like:
+This script takes for granted that you use files like:
 
 ```Dockerfile
     docker run -d \
@@ -11,7 +11,7 @@ Auto update your docker containers from fresh images.
         -p 9000:9000 \
    portainer/portainer:latest   
 ```
-and pull the latest images.
+and pull the latest images. Also, make sure that you are not losing any data updating.
 
 Point the script to the directory of your docker files, and if you would like some of your containers to not be updated, add them to an ignore list (simple text file ending with `\n`)
 
