@@ -1,4 +1,4 @@
-# docker_autoUpdater
+# One click docker updater.
 Auto update your docker containers from fresh images.
 
 ##### This script takes for granted that you use files like:
