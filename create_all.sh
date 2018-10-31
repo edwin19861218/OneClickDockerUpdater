@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#
+#  _        ____ _ _      _      _   _           _       _       
+# / |      / ___| (_) ___| | __ | | | |_ __   __| | __ _| |_ ___ 
+# | |_____| |   | | |/ __| |/ / | | | | '_ \ / _` |/ _` | __/ _ \
+# | |_____| |___| | | (__|   <  | |_| | |_) | (_| | (_| | ||  __/
+# |_|      \____|_|_|\___|_|\_\  \___/| .__/ \__,_|\__,_|\__\___|
+#                                     |_|                        
+#
+
+#Change these two to your own dir and ignorelist
 DOCKERDIR="$HOME/dockerfiles"
 IGNORELIST="ignoreList.txt"
 cd $DOCKERDIR
